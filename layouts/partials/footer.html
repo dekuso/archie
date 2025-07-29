@@ -10,7 +10,7 @@
     href="https://gohugo.io">Hugo</a> und dem <a href="https://github.com/athul/archie">Archie Theme</a>
   </div>
 </footer>
-{{ if not .Site.IsServer }}
+{{ if not hugo.IsServer }}
 {{ end }}
 
 {{- if (isset .Site.Params "social") -}}
